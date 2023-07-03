@@ -1,0 +1,147 @@
+.postShow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.postSection {
+  padding-left: 2em;
+  padding-top: 1em;
+}
+.first_row {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.first_row > img {
+  width: 40px;
+  height: 40px;
+  border-radius:50%;
+  margin-right: 10px;
+}
+
+.postSection >.postText {
+  margin-bottom: 1em;
+  padding-left: 3em;
+} 
+
+.postSection > form {
+  padding-left: 3em;
+}
+.postSection > form > input {
+  padding: 0.6em;
+  font-size: 1em;
+  margin-right: 0.5em;
+}
+
+.postSection > form >.commentButton {
+  background-color: #FF4D6D;
+  padding: 0.58em;
+  font-size: 1em;
+  border:none;
+  border-radius: 6px;
+}
+
+.delete {
+  padding:0 3em;
+  margin: 1em 0;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.delete:hover {
+  color: #FF4D6D;
+  transition: 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+/* .postShow {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 1em;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.postShow > .postSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.postShow > .postSection > img {
+  width: 50px;
+  height: 50px;
+  margin-right: 1em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postShow > .postSection > p {
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.postShow > .postSection > form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.postShow > .postSection > form > p {
+  margin-bottom: 0.5em;
+  font-size: 1em;
+  color: #777;
+}
+
+.postShow > .postSection > form > input {
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.postShow > .postSection > form > input:focus {
+  border-color: #4285F4;
+}
+
+.postShow > .postSection > form > button {
+  margin-top: 1em;
+  padding: 0.7em 1em;
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1em;
+  outline: none;
+  align-self: flex-start;
+}
+
+.postShow >.postSection  >.fa-trash {
+  font-size: 1.2em;
+  color: red;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 1em;
+} */
